@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+        <div class="add-task">
+            <input type="text" id="task-input" placeholder="Enter a task...">
+            <select id="domain-select">
+                <option value="Website Development">Website Development</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Content Creation">Content Creation</option>
+                <!-- Add more domains as needed -->
+            </select>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="task-list">
+            <li>Design Homepage Layout - Domain: Website Development</li>
+            <li>Implement Navigation Menu - Domain: Website Development</li>
+            <li>Create Contact Form - Domain: Website Development</li>
+            <li>Optimize SEO Strategies - Domain: Marketing</li>
+            <li>Write Blog Post - Domain: Content Creation</li>
+            <li>Plan Social Media Campaign - Domain: Marketing</li>
+            <li>Update About Page - Domain: Website Development</li>
+            <li>Design Email Newsletter - Domain: Marketing</li>
+        </ul>
+    </div>
+</body>
+</html>
